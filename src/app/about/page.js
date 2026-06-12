@@ -17,9 +17,9 @@ export default function AboutPage() {
       <section className="section">
         <div className="section-container">
           <div className="about-layout">
-            <div style={{ display: "flex", flexDirection: "column", gap: "48px", justifyContent: "center" }}>
+            <div style={{ display: "flex", flexDirection: "column", gap: "48px", justifyContent: "center", animation: "fadeInDown 0.8s 0.15s both" }}>
               <div style={{ display: "flex", justifyContent: "center" }}>
-                <div style={{ position: "relative", width: "320px", height: "320px", display: "flex", alignItems: "center", justifyContent: "center" }}>
+                <div style={{ position: "relative", width: "320px", height: "320px", display: "flex", alignItems: "center", justifyContent: "center", animation: "avatarEntrance 1s 0.2s cubic-bezier(0.2, 0.8, 0.2, 1) both" }}>
                   <div style={{ position: "absolute", inset: "-20px", borderRadius: "50%", background: "radial-gradient(circle, rgba(255,140,0,0.15) 0%, transparent 60%)", filter: "blur(20px)", zIndex: 0, animation: "glowPulse 4s infinite alternate" }}></div>
                   <Image 
                     src="/avatar.png" 
@@ -31,12 +31,13 @@ export default function AboutPage() {
                       zIndex: 1, 
                       filter: "drop-shadow(0 20px 40px rgba(0,0,0,0.6)) drop-shadow(0 0 40px rgba(255,140,0,0.1))",
                       transform: "translateY(-10px)",
+                      animation: "avatarFloat 6s ease-in-out infinite"
                     }} 
                     priority 
                   />
                 </div>
               </div>
-              <div className="about-code-window">
+              <div className="about-code-window" style={{ animation: "fadeInUp 0.8s 0.45s both" }}>
                 <div className="code-window-header">
                   <span className="code-dot red"></span>
                   <span className="code-dot yellow"></span>
@@ -50,20 +51,22 @@ export default function AboutPage() {
             </div>
 
             <div className="about-content">
-              <h1 className="about-headline">
+              <h1 className="about-headline" style={{ animation: "fadeInDown 0.8s 0.15s both" }}>
                 I&apos;m <span className="about-name">Zameer Mahfooz Khan</span> — a freelance web developer turning ideas into high-performing digital experiences.
               </h1>
-              <p className="about-bio">
-                Based in <strong>Ayodhya, Uttar Pradesh, India</strong>, I&apos;ve spent the last 3+ years building websites and web applications for businesses of all sizes — from local shops in Ayodhya to companies across India and beyond.
-              </p>
-              <p className="about-bio">
-                I specialize in <strong>React, Next.js, Node.js, and SEO optimization</strong>. My approach combines clean code, thoughtful design, and genuine empathy for end users. Every website I build is crafted to rank well on Google, load blazingly fast, and convert visitors into customers.
-              </p>
-              <p className="about-bio">
-                Currently pursuing a <strong>B.Tech in Computer Science</strong> at Kamla Nehru Institute of Physical and Social Science (KNIPSS), Sultanpur. When I&apos;m not coding, I&apos;m exploring new technologies, contributing to open-source projects, or perfecting UI animations.
-              </p>
+              <div style={{ animation: "fadeInUp 0.8s 0.3s both" }}>
+                <p className="about-bio">
+                  Based in <strong>Ayodhya, Uttar Pradesh, India</strong>, I&apos;ve spent the last 3+ years building websites and web applications for businesses of all sizes — from local shops in Ayodhya to companies across India and beyond.
+                </p>
+                <p className="about-bio">
+                  I specialize in <strong>React, Next.js, Node.js, and SEO optimization</strong>. My approach combines clean code, thoughtful design, and genuine empathy for end users. Every website I build is crafted to rank well on Google, load blazingly fast, and convert visitors into customers.
+                </p>
+                <p className="about-bio">
+                  Currently pursuing a <strong>B.Tech in Computer Science</strong> at Kamla Nehru Institute of Physical and Social Science (KNIPSS), Sultanpur. When I&apos;m not coding, I&apos;m exploring new technologies, contributing to open-source projects, or perfecting UI animations.
+                </p>
+              </div>
 
-              <div className="about-highlights">
+              <div className="about-highlights" style={{ animation: "fadeInUp 0.8s 0.45s both" }}>
                 <div className="about-highlight-card">
                   <div className="about-hl-icon">🚀</div>
                   <div>
@@ -87,11 +90,11 @@ export default function AboutPage() {
                 </div>
               </div>
 
-              <div className="about-closing">
+              <div className="about-closing" style={{ animation: "fadeInUp 0.8s 0.6s both" }}>
                 I&apos;m always open to exciting collaborations — whether you&apos;re a startup, a growing business, or an established company looking to modernize your web presence. Let&apos;s build something amazing together.
               </div>
 
-              <div style={{ display: "flex", gap: 16, flexWrap: "wrap", paddingTop: 4 }}>
+              <div style={{ display: "flex", gap: 16, flexWrap: "wrap", paddingTop: 4, animation: "fadeInUp 0.8s 0.75s both" }}>
                 <Link href="/contact" className="btn-primary"><span>Let&apos;s Talk</span></Link>
                 <a href="/Zameer_Resume.pdf" className="btn-secondary" download="Zameer_Resume.pdf"><span>Download Resume</span></a>
               </div>
