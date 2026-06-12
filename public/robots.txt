@@ -1,0 +1,27 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://zameerkhan.online/sitemap.xml
+
+# Block access to API routes
+User-agent: *
+Disallow: /api/
+
+# Allow all search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
