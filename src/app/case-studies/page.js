@@ -5,7 +5,7 @@ import { projects } from "@/data/projects";
 export const metadata = {
   title: "Case Studies — Web Development Results & Success Stories",
   description: "Detailed case studies showing how Zameer Khan helped businesses grow online with custom web development, e-commerce, and SEO. Real results from real projects.",
-  alternates: { canonical: "https://zameerkhan.online/case-studies" },
+  alternates: { canonical: "https://zameer-v2.vercel.app/case-studies" },
 };
 
 export default function CaseStudiesPage() {

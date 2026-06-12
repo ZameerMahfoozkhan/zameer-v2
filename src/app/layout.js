@@ -5,7 +5,7 @@ import StickyContactButton from "@/components/layout/StickyContactButton";
 import { generatePersonSchema, generateWebsiteSchema, generateOrganizationSchema } from "@/lib/schema";
 
 export const metadata = {
-  metadataBase: new URL("https://zameerkhan.online"),
+  metadataBase: new URL("https://zameer-v2.vercel.app"),
   title: {
     default: "Zameer Khan — Freelance Web Developer & Website Designer in Ayodhya | React & Next.js Expert",
     template: "%s | Zameer Khan",
@@ -19,14 +19,14 @@ export const metadata = {
     "Freelance Web Developer Ayodhya", "Website Development Ayodhya",
     "Web Developer India", "SEO Expert Ayodhya",
   ],
-  authors: [{ name: "Zameer Mahfooz Khan", url: "https://zameerkhan.online" }],
+  authors: [{ name: "Zameer Mahfooz Khan", url: "https://zameer-v2.vercel.app" }],
   creator: "Zameer Mahfooz Khan",
   publisher: "Zameer Mahfooz Khan",
   robots: { index: true, follow: true, googleBot: { index: true, follow: true } },
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://zameerkhan.online",
+    url: "https://zameer-v2.vercel.app",
     siteName: "Zameer Khan — Freelance Web Developer",
     title: "Zameer Khan — Freelance Web Developer & Website Designer in Ayodhya",
     description:
@@ -40,7 +40,7 @@ export const metadata = {
       "Freelance web developer in Ayodhya, India. React, Next.js & Node.js specialist. Building modern websites for businesses worldwide.",
     images: ["/avatar.png"],
   },
-  alternates: { canonical: "https://zameerkhan.online" },
+  alternates: { canonical: "https://zameer-v2.vercel.app" },
   verification: { google: "google2bfb8b207faffbd8" },
   icons: {
     icon: "/avatar.png",

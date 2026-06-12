@@ -6,7 +6,7 @@ import { generateLocalBusinessSchema, generateFAQSchema } from "@/lib/schema";
 export const metadata = {
   title: "Freelance Web Developer in Ayodhya | Zameer Khan — Hire for Your Project",
   description: "Hire a freelance web developer in Ayodhya. Zameer Khan offers affordable, professional web development services. React, Next.js & Node.js expert. 3+ years experience, 40+ projects.",
-  alternates: { canonical: "https://zameerkhan.online/freelance-web-developer-ayodhya" },
+  alternates: { canonical: "https://zameer-v2.vercel.app/freelance-web-developer-ayodhya" },
   keywords: ["freelance web developer ayodhya", "freelance web developer in ayodhya", "hire web developer ayodhya", "freelance developer ayodhya"],
 };
 

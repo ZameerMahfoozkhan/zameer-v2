@@ -1,5 +1,5 @@
 export default function sitemap() {
-  const baseUrl = "https://zameerkhan.online";
+  const baseUrl = "https://zameer-v2.vercel.app";
   const lastModified = new Date();
 
   return [

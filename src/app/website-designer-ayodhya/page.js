@@ -6,7 +6,7 @@ import { generateLocalBusinessSchema, generateFAQSchema } from "@/lib/schema";
 export const metadata = {
   title: "Website Designer in Ayodhya | Zameer Khan — Modern & Responsive Designs",
   description: "Professional website designer in Ayodhya. Zameer Khan creates stunning, mobile-responsive website designs that convert visitors into customers. Modern UI/UX design with SEO optimization.",
-  alternates: { canonical: "https://zameerkhan.online/website-designer-ayodhya" },
+  alternates: { canonical: "https://zameer-v2.vercel.app/website-designer-ayodhya" },
   keywords: ["website designer ayodhya", "website designer in ayodhya", "web design ayodhya", "best website designer ayodhya"],
 };
 

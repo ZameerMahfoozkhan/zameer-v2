@@ -6,7 +6,7 @@ import { siteConfig, skills } from "@/data/content";
 export const metadata = {
   title: "About Zameer Khan — Freelance Web Developer in Ayodhya, India",
   description: "Learn about Zameer Mahfooz Khan, a freelance web developer and website designer based in Ayodhya, India. 3+ years experience building modern websites with React, Next.js & Node.js.",
-  alternates: { canonical: "https://zameerkhan.online/about" },
+  alternates: { canonical: "https://zameer-v2.vercel.app/about" },
 };
 
 export default function AboutPage() {

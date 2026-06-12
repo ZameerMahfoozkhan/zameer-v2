@@ -5,7 +5,7 @@ import { blogPosts } from "@/data/content";
 export const metadata = {
   title: "Blog — Web Development, SEO & Design Tips",
   description: "Read articles about web development, SEO optimization, website design trends, and business tips by Zameer Khan, freelance web developer in Ayodhya.",
-  alternates: { canonical: "https://zameerkhan.online/blog" },
+  alternates: { canonical: "https://zameer-v2.vercel.app/blog" },
 };
 
 export default function BlogPage() {

@@ -4,7 +4,7 @@ import { siteConfig } from "@/data/content";
 export const metadata = {
   title: "Contact Zameer Khan — Freelance Web Developer in Ayodhya",
   description: "Get in touch with Zameer Khan for web development, website design, or SEO services. Based in Ayodhya, India — available for worldwide projects. Free consultation.",
-  alternates: { canonical: "https://zameerkhan.online/contact" },
+  alternates: { canonical: "https://zameer-v2.vercel.app/contact" },
 };
 
 export default function ContactPage() {

@@ -155,7 +155,7 @@ export const siteConfig = {
   tagline: "Building Modern Websites for Businesses Worldwide",
   email: "zameermahfoozkhan@gmail.com",
   phone: "",
-  url: "https://zameerkhan.online",
+  url: "https://zameer-v2.vercel.app",
   github: "https://github.com/ZameerMahfoozkhan",
   linkedin: "https://www.linkedin.com/in/zameer-mahfooz-khan-373313303/",
   instagram: "https://www.instagram.com/web_by_zam",

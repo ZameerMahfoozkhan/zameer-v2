@@ -353,7 +353,7 @@ export async function generateMetadata({ params }) {
   return {
     title: `${post.title} | Zameer Khan`,
     description: post.excerpt,
-    alternates: { canonical: `https://zameerkhan.online/blog/${post.slug}` },
+    alternates: { canonical: `https://zameer-v2.vercel.app/blog/${post.slug}` },
     openGraph: { title: post.title, description: post.excerpt, type: "article" },
     keywords: post.keywords,
   };

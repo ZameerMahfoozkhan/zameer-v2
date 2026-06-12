@@ -4,7 +4,7 @@ import { services } from "@/data/services";
 export const metadata = {
   title: "Web Development Services — Custom Websites, E-commerce, SEO",
   description: "Professional web development services by Zameer Khan. Custom websites, website redesign, e-commerce, SEO optimization, and landing pages. Based in Ayodhya, serving worldwide.",
-  alternates: { canonical: "https://zameerkhan.online/services" },
+  alternates: { canonical: "https://zameer-v2.vercel.app/services" },
 };
 
 const serviceIcons = { code: "💻", refresh: "🔄", cart: "🛒", search: "🔍", landing: "🚀" };

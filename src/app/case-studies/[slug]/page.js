@@ -14,7 +14,7 @@ export async function generateMetadata({ params }) {
   return {
     title: `Case Study: ${project.title} — Web Development by Zameer Khan`,
     description: `How Zameer Khan built ${project.title}. ${project.caseStudy.overview.substring(0, 120)}...`,
-    alternates: { canonical: `https://zameerkhan.online/case-studies/${project.slug}` },
+    alternates: { canonical: `https://zameer-v2.vercel.app/case-studies/${project.slug}` },
   };
 }
 

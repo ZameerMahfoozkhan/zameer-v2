@@ -6,7 +6,7 @@ import { generateLocalBusinessSchema, generateFAQSchema } from "@/lib/schema";
 export const metadata = {
   title: "Web Developer in Ayodhya | Zameer Khan — Custom Websites & Web Apps",
   description: "Looking for a web developer in Ayodhya? Zameer Khan builds modern, SEO-optimized websites for businesses in Ayodhya, Uttar Pradesh. React, Next.js & Node.js specialist. Get a free quote.",
-  alternates: { canonical: "https://zameerkhan.online/web-developer-ayodhya" },
+  alternates: { canonical: "https://zameer-v2.vercel.app/web-developer-ayodhya" },
   keywords: ["web developer ayodhya", "web developer in ayodhya", "website developer ayodhya", "best web developer ayodhya"],
 };
 

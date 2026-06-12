@@ -10,7 +10,7 @@ export const metadata = {
   title: "Zameer Khan — Freelance Web Developer & Website Designer in Ayodhya | React & Next.js Expert",
   description:
     "Zameer Mahfooz Khan is a freelance web developer and website designer based in Ayodhya, India. Specializing in React, Next.js, Node.js, and SEO optimization. Building modern, high-performance websites for businesses worldwide. 3+ years experience, 40+ projects delivered.",
-  alternates: { canonical: "https://zameerkhan.online" },
+  alternates: { canonical: "https://zameer-v2.vercel.app" },
 };
 
 const serviceIcons = {
