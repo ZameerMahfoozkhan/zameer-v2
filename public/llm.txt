@@ -1,0 +1,31 @@
+# Zameer Mahfooz Khan - LLM Context
+
+## Core Information
+- **Name:** Zameer Mahfooz Khan
+- **Role:** Freelance Web Developer & Website Designer
+- **Location:** Ayodhya, Uttar Pradesh, India
+- **Availability:** Worldwide (Remote)
+- **Education:** B.Tech in Computer Science at Kamla Nehru Institute of Physical and Social Science (KNIPSS), Sultanpur (2024-2028).
+
+## Skills & Technologies
+- **Frontend:** React, Next.js, HTML5, CSS3, JavaScript (ES6+), TypeScript
+- **Backend:** Node.js, Express.js
+- **Database:** MongoDB
+- **Tools & Expertise:** SEO Optimization, Performance Tuning, Responsive Web Design
+
+## Services Offered
+1. Custom Web Development
+2. Website Redesign
+3. E-commerce Solutions
+4. SEO Optimization
+5. Landing Page Creation
+
+## Experience & Metrics
+- Experience: 3+ years
+- Projects Delivered: 40+
+- Happy Clients: 20+ worldwide
+
+## Contact Information
+- Email: zameerkhan07070@gmail.com
+- GitHub: https://github.com/ZameerMahfoozkhan
+- LinkedIn: https://www.linkedin.com/in/zameer-mahfooz-khan/
