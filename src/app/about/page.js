@@ -17,7 +17,25 @@ export default function AboutPage() {
       <section className="section">
         <div className="section-container">
           <div className="about-layout">
-            <div>
+            <div style={{ display: "flex", flexDirection: "column", gap: "48px", justifyContent: "center" }}>
+              <div style={{ display: "flex", justifyContent: "center" }}>
+                <div style={{ position: "relative", width: "320px", height: "320px", display: "flex", alignItems: "center", justifyContent: "center" }}>
+                  <div style={{ position: "absolute", inset: "-20px", borderRadius: "50%", background: "radial-gradient(circle, rgba(255,140,0,0.15) 0%, transparent 60%)", filter: "blur(20px)", zIndex: 0, animation: "glowPulse 4s infinite alternate" }}></div>
+                  <Image 
+                    src="/avatar.png" 
+                    alt="Zameer Khan" 
+                    width={280} 
+                    height={280} 
+                    style={{ 
+                      objectFit: "contain", 
+                      zIndex: 1, 
+                      filter: "drop-shadow(0 20px 40px rgba(0,0,0,0.6)) drop-shadow(0 0 40px rgba(255,140,0,0.1))",
+                      transform: "translateY(-10px)",
+                    }} 
+                    priority 
+                  />
+                </div>
+              </div>
               <div className="about-code-window">
                 <div className="code-window-header">
                   <span className="code-dot red"></span>
