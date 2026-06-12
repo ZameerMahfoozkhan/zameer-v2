@@ -42,6 +42,11 @@ export const metadata = {
   },
   alternates: { canonical: "https://zameerkhan.online" },
   verification: { google: "google2bfb8b207faffbd8" },
+  icons: {
+    icon: "/avatar.png",
+    shortcut: "/avatar.png",
+    apple: "/avatar.png",
+  },
   other: {
     "theme-color": "#0F0A05",
   },
@@ -55,8 +60,6 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <link rel="icon" type="image/png" href="/avatar.png" />
-        <link rel="apple-touch-icon" href="/avatar.png" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(personSchema) }}
