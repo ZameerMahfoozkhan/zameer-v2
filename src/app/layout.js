@@ -5,42 +5,42 @@ import StickyContactButton from "@/components/layout/StickyContactButton";
 import { generatePersonSchema, generateWebsiteSchema, generateOrganizationSchema } from "@/lib/schema";
 
 export const metadata = {
-  metadataBase: new URL("https://zameer-v2.vercel.app"),
+  metadataBase: new URL("https://zameerkhan.online"),
   title: {
-    default: "Zameer Khan — Freelance Web Developer & Website Designer in Ayodhya | React & Next.js Expert",
-    template: "%s | Zameer Khan",
+    default: "Zameer Mahfooz Khan — Freelance Web Developer & Website Designer in Ayodhya | React & Next.js Expert",
+    template: "%s | Zameer Mahfooz Khan",
   },
   description:
     "Zameer Mahfooz Khan is a freelance web developer and website designer based in Ayodhya, India. Specializing in React, Next.js, Node.js, and SEO. Building modern, high-performance websites for businesses worldwide.",
   keywords: [
-    "Zameer Khan", "Zameer Mahfooz Khan", "Web Developer", "Website Designer",
+    "Zameer Mahfooz Khan", "Zameer Mahfooz Khan", "Web Developer", "Website Designer",
     "Freelance Web Developer", "Web Developer in Ayodhya", "Website Designer in Ayodhya",
     "React Developer", "Next.js Developer", "Node.js Developer",
     "Freelance Web Developer Ayodhya", "Website Development Ayodhya",
     "Web Developer India", "SEO Expert Ayodhya",
   ],
-  authors: [{ name: "Zameer Mahfooz Khan", url: "https://zameer-v2.vercel.app" }],
+  authors: [{ name: "Zameer Mahfooz Khan", url: "https://zameerkhan.online" }],
   creator: "Zameer Mahfooz Khan",
   publisher: "Zameer Mahfooz Khan",
   robots: { index: true, follow: true, googleBot: { index: true, follow: true } },
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://zameer-v2.vercel.app",
-    siteName: "Zameer Khan — Freelance Web Developer",
-    title: "Zameer Khan — Freelance Web Developer & Website Designer in Ayodhya",
+    url: "https://zameerkhan.online",
+    siteName: "Zameer Mahfooz Khan — Freelance Web Developer",
+    title: "Zameer Mahfooz Khan — Freelance Web Developer & Website Designer in Ayodhya",
     description:
       "Freelance web developer and website designer based in Ayodhya, India. Specializing in React, Next.js & Node.js. Building modern websites for businesses worldwide.",
     images: [{ url: "/avatar.png", width: 800, height: 800, alt: "Zameer Mahfooz Khan — Freelance Web Developer" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Zameer Khan — Freelance Web Developer & Website Designer in Ayodhya",
+    title: "Zameer Mahfooz Khan — Freelance Web Developer & Website Designer in Ayodhya",
     description:
       "Freelance web developer in Ayodhya, India. React, Next.js & Node.js specialist. Building modern websites for businesses worldwide.",
     images: ["/avatar.png"],
   },
-  alternates: { canonical: "https://zameer-v2.vercel.app" },
+  alternates: { canonical: "https://zameerkhan.online" },
   verification: { google: "google2bfb8b207faffbd8" },
   icons: {
     icon: "/avatar.png",

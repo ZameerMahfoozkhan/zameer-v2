@@ -23,7 +23,7 @@ export default function Navbar() {
 
   return (
     <nav className={`navbar ${scrolled ? "scrolled" : ""}`} id="navbar" role="navigation" aria-label="Main navigation">
-      <Link href="/" className="nav-logo" aria-label="Zameer Khan — Home">
+      <Link href="/" className="nav-logo" aria-label="Zameer Mahfooz Khan — Home">
         zameer<span className="dot">.</span>
       </Link>
 

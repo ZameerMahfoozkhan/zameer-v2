@@ -5,12 +5,13 @@ import { services } from "@/data/services";
 import { projects } from "@/data/projects";
 import { testimonials, skills, homepageFaqs, siteConfig } from "@/data/content";
 import { generateFAQSchema } from "@/lib/schema";
+import ContactForm from "@/components/sections/ContactForm";
 
 export const metadata = {
-  title: "Zameer Khan — Freelance Web Developer & Website Designer in Ayodhya | React & Next.js Expert",
+  title: "Zameer Mahfooz Khan — Freelance Web Developer & Website Designer in Ayodhya | React & Next.js Expert",
   description:
     "Zameer Mahfooz Khan is a freelance web developer and website designer based in Ayodhya, India. Specializing in React, Next.js, Node.js, and SEO optimization. Building modern, high-performance websites for businesses worldwide. 3+ years experience, 40+ projects delivered.",
-  alternates: { canonical: "https://zameer-v2.vercel.app" },
+  alternates: { canonical: "https://zameerkhan.online" },
 };
 
 const serviceIcons = {
@@ -277,38 +278,7 @@ export default function HomePage() {
               </div>
             </div>
 
-            <form className="contact-form" id="contactForm" action={`https://formspree.io/f/${siteConfig.formspreeId}`} method="POST">
-              <div className="form-row">
-                <div className="form-group">
-                  <label htmlFor="name">Full Name</label>
-                  <input type="text" id="name" name="name" placeholder="Your Name" required />
-                </div>
-                <div className="form-group">
-                  <label htmlFor="email">Email</label>
-                  <input type="email" id="email" name="email" placeholder="you@example.com" required />
-                </div>
-              </div>
-              <div className="form-group">
-                <label htmlFor="service">Service Needed</label>
-                <select id="service" name="service">
-                  <option value="">Select a service...</option>
-                  <option value="Web Development">Web Development</option>
-                  <option value="Website Redesign">Website Redesign</option>
-                  <option value="E-commerce">E-commerce Development</option>
-                  <option value="SEO Optimization">SEO Optimization</option>
-                  <option value="Landing Page">Landing Page Development</option>
-                  <option value="Other">Other</option>
-                </select>
-              </div>
-              <div className="form-group">
-                <label htmlFor="message">Project Details</label>
-                <textarea id="message" name="message" rows="5" placeholder="Tell me about your project, timeline, and budget..." required></textarea>
-              </div>
-              <button type="submit" className="btn-submit" id="submitBtn">
-                <span>Send Message</span>
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg>
-              </button>
-            </form>
+            <ContactForm />
           </div>
         </div>
       </section>

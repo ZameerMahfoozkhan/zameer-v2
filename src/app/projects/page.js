@@ -4,8 +4,8 @@ import { projects } from "@/data/projects";
 
 export const metadata = {
   title: "Projects — Web Development Portfolio",
-  description: "Explore the web development portfolio of Zameer Khan. E-commerce stores, school websites, business sites, and more. Real projects for real businesses.",
-  alternates: { canonical: "https://zameer-v2.vercel.app/projects" },
+  description: "Explore the web development portfolio of Zameer Mahfooz Khan. E-commerce stores, school websites, business sites, and more. Real projects for real businesses.",
+  alternates: { canonical: "https://zameerkhan.online/projects" },
 };
 
 export default function ProjectsPage() {

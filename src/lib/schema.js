@@ -5,7 +5,7 @@ export function generatePersonSchema() {
     "@context": "https://schema.org",
     "@type": "Person",
     name: "Zameer Mahfooz Khan",
-    alternateName: "Zameer Khan",
+    alternateName: "Zameer Mahfooz Khan",
     url: siteConfig.url,
     image: `${siteConfig.url}/avatar.png`,
     jobTitle: "Freelance Web Developer & Website Designer",
@@ -43,7 +43,7 @@ export function generatePersonSchema() {
     },
     worksFor: {
       "@type": "Organization",
-      name: "Zameer Khan — Freelance Web Development",
+      name: "Zameer Mahfooz Khan — Freelance Web Development",
       url: siteConfig.url,
     },
   };
@@ -53,7 +53,7 @@ export function generateWebsiteSchema() {
   return {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    name: "Zameer Khan — Freelance Web Developer",
+    name: "Zameer Mahfooz Khan — Freelance Web Developer",
     alternateName: "Zameer Mahfooz Khan Portfolio",
     url: siteConfig.url,
     description:
@@ -73,12 +73,12 @@ export function generateOrganizationSchema() {
   return {
     "@context": "https://schema.org",
     "@type": "ProfessionalService",
-    name: "Zameer Khan — Web Development Services",
+    name: "Zameer Mahfooz Khan — Web Development Services",
     url: siteConfig.url,
     logo: `${siteConfig.url}/avatar.png`,
     image: `${siteConfig.url}/avatar.png`,
     description:
-      "Professional web development services by Zameer Khan. Custom websites, e-commerce, SEO optimization, and landing pages. Based in Ayodhya, serving clients worldwide.",
+      "Professional web development services by Zameer Mahfooz Khan. Custom websites, e-commerce, SEO optimization, and landing pages. Based in Ayodhya, serving clients worldwide.",
     email: siteConfig.email,
     founder: { "@type": "Person", name: "Zameer Mahfooz Khan" },
     address: {
@@ -196,7 +196,7 @@ export function generateLocalBusinessSchema() {
   return {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    name: "Zameer Khan — Web Developer in Ayodhya",
+    name: "Zameer Mahfooz Khan — Web Developer in Ayodhya",
     url: siteConfig.url,
     image: `${siteConfig.url}/avatar.png`,
     description:

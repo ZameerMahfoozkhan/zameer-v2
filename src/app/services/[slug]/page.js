@@ -16,11 +16,11 @@ export async function generateMetadata({ params }) {
   return {
     title: service.metaTitle,
     description: service.metaDescription,
-    alternates: { canonical: `https://zameer-v2.vercel.app/services/${service.slug}` },
+    alternates: { canonical: `https://zameerkhan.online/services/${service.slug}` },
     openGraph: {
       title: service.metaTitle,
       description: service.metaDescription,
-      url: `https://zameer-v2.vercel.app/services/${service.slug}`,
+      url: `https://zameerkhan.online/services/${service.slug}`,
     },
   };
 }

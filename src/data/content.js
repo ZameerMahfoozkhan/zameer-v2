@@ -48,35 +48,35 @@ export const skills = [
 
 export const homepageFaqs = [
   {
-    q: "Who is Zameer Khan?",
+    q: "Who is Zameer Mahfooz Khan?",
     a: "Zameer Mahfooz Khan is a freelance web developer and website designer based in Ayodhya, Uttar Pradesh, India. With 3+ years of experience, he specializes in building modern, SEO-optimized websites using React, Next.js, and Node.js. He works with clients across India and internationally.",
   },
   {
-    q: "What services does Zameer Khan offer?",
+    q: "What services does Zameer Mahfooz Khan offer?",
     a: "Zameer offers professional web development, website redesign, e-commerce development, SEO optimization, and landing page development services. He builds custom websites from scratch using modern technologies and follows best practices for performance, accessibility, and search engine optimization.",
   },
   {
-    q: "Where is Zameer Khan located?",
-    a: "Zameer Khan is based in Ayodhya, Uttar Pradesh, India. While he is a local web developer serving businesses in Ayodhya and nearby cities, he works with clients worldwide through remote collaboration tools.",
+    q: "Where is Zameer Mahfooz Khan located?",
+    a: "Zameer Mahfooz Khan is based in Ayodhya, Uttar Pradesh, India. While he is a local web developer serving businesses in Ayodhya and nearby cities, he works with clients worldwide through remote collaboration tools.",
   },
   {
-    q: "What technologies does Zameer Khan specialize in?",
+    q: "What technologies does Zameer Mahfooz Khan specialize in?",
     a: "Zameer specializes in HTML, CSS, JavaScript, TypeScript, React, Next.js, Node.js, MongoDB, SEO, and Performance Optimization. He stays updated with the latest web technologies and best practices to deliver modern, high-performance websites.",
   },
   {
-    q: "Can Zameer Khan work with international clients?",
+    q: "Can Zameer Mahfooz Khan work with international clients?",
     a: "Yes, absolutely. While Zameer is based in Ayodhya, India, he regularly works with clients from across the globe. He uses modern collaboration tools for seamless remote communication and project management, ensuring a smooth workflow regardless of location.",
   },
   {
-    q: "How much does Zameer Khan charge for a website?",
+    q: "How much does Zameer Mahfooz Khan charge for a website?",
     a: "Website costs vary based on complexity, features, and timeline. Simple landing pages start at competitive rates, while full-scale web applications are priced based on scope. Contact Zameer for a free consultation and custom quote tailored to your specific needs.",
   },
   {
-    q: "What industries has Zameer Khan worked with?",
+    q: "What industries has Zameer Mahfooz Khan worked with?",
     a: "Zameer has worked with clients across various industries including e-commerce, education, manufacturing, customer service, and small businesses. His diverse portfolio includes projects like sports e-commerce stores, school websites, fabrication company sites, and service portals.",
   },
   {
-    q: "How can I hire Zameer Khan for my project?",
+    q: "How can I hire Zameer Mahfooz Khan for my project?",
     a: "You can hire Zameer by filling out the contact form on this website, sending an email to zameermahfoozkhan@gmail.com, or connecting through LinkedIn. He typically responds within 24 hours and offers a free initial consultation to discuss your project requirements.",
   },
 ];
@@ -149,13 +149,13 @@ export const blogPosts = [
 
 export const siteConfig = {
   name: "Zameer Mahfooz Khan",
-  title: "Zameer Khan",
+  title: "Zameer Mahfooz Khan",
   role: "Freelance Web Developer & Website Designer",
   location: "Ayodhya, Uttar Pradesh, India",
   tagline: "Building Modern Websites for Businesses Worldwide",
   email: "zameermahfoozkhan@gmail.com",
   phone: "",
-  url: "https://zameer-v2.vercel.app",
+  url: "https://zameerkhan.online",
   github: "https://github.com/ZameerMahfoozkhan",
   linkedin: "https://www.linkedin.com/in/zameer-mahfooz-khan-373313303/",
   instagram: "https://www.instagram.com/web_by_zam",

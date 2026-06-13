@@ -1,10 +1,11 @@
 import Breadcrumbs from "@/components/layout/Breadcrumbs";
 import { siteConfig } from "@/data/content";
+import ContactForm from "@/components/sections/ContactForm";
 
 export const metadata = {
-  title: "Contact Zameer Khan — Freelance Web Developer in Ayodhya",
-  description: "Get in touch with Zameer Khan for web development, website design, or SEO services. Based in Ayodhya, India — available for worldwide projects. Free consultation.",
-  alternates: { canonical: "https://zameer-v2.vercel.app/contact" },
+  title: "Contact Zameer Mahfooz Khan — Freelance Web Developer in Ayodhya",
+  description: "Get in touch with Zameer Mahfooz Khan for web development, website design, or SEO services. Based in Ayodhya, India — available for worldwide projects. Free consultation.",
+  alternates: { canonical: "https://zameerkhan.online/contact" },
 };
 
 export default function ContactPage() {
@@ -52,51 +53,7 @@ export default function ContactPage() {
               </div>
             </div>
 
-            <form className="contact-form" action={`https://formspree.io/f/${siteConfig.formspreeId}`} method="POST">
-              <div className="form-row">
-                <div className="form-group">
-                  <label htmlFor="name">Full Name</label>
-                  <input type="text" id="name" name="name" placeholder="Your Name" required />
-                </div>
-                <div className="form-group">
-                  <label htmlFor="email">Email</label>
-                  <input type="email" id="email" name="email" placeholder="you@example.com" required />
-                </div>
-              </div>
-              <div className="form-row">
-                <div className="form-group">
-                  <label htmlFor="service">Service Needed</label>
-                  <select id="service" name="service">
-                    <option value="">Select a service...</option>
-                    <option value="Web Development">Web Development</option>
-                    <option value="Website Redesign">Website Redesign</option>
-                    <option value="E-commerce">E-commerce Development</option>
-                    <option value="SEO Optimization">SEO Optimization</option>
-                    <option value="Landing Page">Landing Page</option>
-                    <option value="Other">Other</option>
-                  </select>
-                </div>
-                <div className="form-group">
-                  <label htmlFor="budget">Budget Range</label>
-                  <select id="budget" name="budget">
-                    <option value="">Select budget...</option>
-                    <option value="Under ₹10,000">Under ₹10,000</option>
-                    <option value="₹10,000 - ₹25,000">₹10,000 - ₹25,000</option>
-                    <option value="₹25,000 - ₹50,000">₹25,000 - ₹50,000</option>
-                    <option value="₹50,000 - ₹1,00,000">₹50,000 - ₹1,00,000</option>
-                    <option value="₹1,00,000+">₹1,00,000+</option>
-                  </select>
-                </div>
-              </div>
-              <div className="form-group">
-                <label htmlFor="message">Project Details</label>
-                <textarea id="message" name="message" rows="6" placeholder="Tell me about your project, goals, timeline, and any specific requirements..." required></textarea>
-              </div>
-              <button type="submit" className="btn-submit">
-                <span>Send Message</span>
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg>
-              </button>
-            </form>
+            <ContactForm showBudget={true} />
           </div>
         </div>
       </section>

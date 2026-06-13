@@ -31,8 +31,8 @@ I work with clients across India and internationally, providing end-to-end web d
       { q: "Can you work with my existing design?", a: "Absolutely! I can work from Figma designs, wireframes, or even rough sketches. I also offer complete design-to-development services." },
       { q: "Do you offer website maintenance?", a: "Yes, I offer ongoing maintenance packages that include security updates, performance monitoring, content updates, and technical support." },
     ],
-    metaTitle: "Web Development Services | Zameer Khan — Freelance Developer in Ayodhya",
-    metaDescription: "Professional web development services by Zameer Khan. Custom websites built with React, Next.js & Node.js. Based in Ayodhya, serving clients worldwide. Get a free quote.",
+    metaTitle: "Web Development Services | Zameer Mahfooz Khan — Freelance Developer in Ayodhya",
+    metaDescription: "Professional web development services by Zameer Mahfooz Khan. Custom websites built with React, Next.js & Node.js. Based in Ayodhya, serving clients worldwide. Get a free quote.",
   },
   {
     slug: "website-redesign",
@@ -66,7 +66,7 @@ From outdated WordPress sites to basic HTML pages, I modernize websites using th
       { q: "Can you redesign my WordPress site?", a: "Yes! I can redesign WordPress sites or migrate them to a modern framework like Next.js for better performance and maintainability." },
       { q: "How long does a redesign take?", a: "Most redesigns take 3-6 weeks. I work in phases so you can review progress and provide feedback throughout the process." },
     ],
-    metaTitle: "Website Redesign Services | Zameer Khan — Modern & SEO-Optimized Redesigns",
+    metaTitle: "Website Redesign Services | Zameer Mahfooz Khan — Modern & SEO-Optimized Redesigns",
     metaDescription: "Transform your outdated website with a professional redesign. Improved speed, SEO, and conversions. Freelance web developer in Ayodhya serving clients worldwide.",
   },
   {
@@ -101,8 +101,8 @@ My e-commerce development services include custom storefronts, payment gateway i
       { q: "Do you provide product photography services?", a: "While I don't provide photography, I can guide you on product image requirements and optimize your images for web performance." },
       { q: "Can customers track their orders?", a: "Yes, I can implement order tracking, email notifications, and customer account dashboards as part of your e-commerce solution." },
     ],
-    metaTitle: "E-commerce Development Services | Zameer Khan — Custom Online Stores",
-    metaDescription: "Custom e-commerce website development with secure payments, inventory management & optimized checkout. Built by Zameer Khan, freelance developer in Ayodhya.",
+    metaTitle: "E-commerce Development Services | Zameer Mahfooz Khan — Custom Online Stores",
+    metaDescription: "Custom e-commerce website development with secure payments, inventory management & optimized checkout. Built by Zameer Mahfooz Khan, freelance developer in Ayodhya.",
   },
   {
     slug: "seo-optimization",
@@ -136,7 +136,7 @@ My unique advantage is combining traditional SEO with AI SEO — structuring you
       { q: "What is AI SEO?", a: "AI SEO is optimizing your content to be discovered and recommended by AI assistants like ChatGPT, Gemini, and Perplexity. This includes structured data, clear expertise signals, and FAQ sections." },
       { q: "Do you offer monthly SEO services?", a: "Yes, I offer monthly SEO packages that include monitoring, reporting, content optimization, and ongoing technical improvements." },
     ],
-    metaTitle: "SEO Optimization Services | Zameer Khan — Rank Higher on Google & AI Search",
+    metaTitle: "SEO Optimization Services | Zameer Mahfooz Khan — Rank Higher on Google & AI Search",
     metaDescription: "Professional SEO services including technical SEO, on-page optimization & AI search visibility. Freelance SEO specialist in Ayodhya helping businesses rank higher.",
   },
   {
@@ -171,7 +171,7 @@ Whether you need a product launch page, a lead generation funnel, or a campaign-
       { q: "Do you integrate with email marketing tools?", a: "Yes, I integrate landing pages with popular tools like Mailchimp, ConvertKit, Sendinblue, and custom CRM systems." },
       { q: "How fast can you deliver a landing page?", a: "Simple landing pages can be delivered in 3-5 business days. More complex pages with custom animations and interactions take 1-2 weeks." },
     ],
-    metaTitle: "Landing Page Development | Zameer Khan — High-Converting Pages That Drive Results",
+    metaTitle: "Landing Page Development | Zameer Mahfooz Khan — High-Converting Pages That Drive Results",
     metaDescription: "Professional landing page development for lead generation & conversions. Fast delivery, mobile-first design. Freelance web developer in Ayodhya.",
   },
 ];

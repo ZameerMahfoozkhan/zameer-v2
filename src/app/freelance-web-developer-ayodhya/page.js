@@ -4,9 +4,9 @@ import FAQ from "@/components/sections/FAQ";
 import { generateLocalBusinessSchema, generateFAQSchema } from "@/lib/schema";
 
 export const metadata = {
-  title: "Freelance Web Developer in Ayodhya | Zameer Khan — Hire for Your Project",
-  description: "Hire a freelance web developer in Ayodhya. Zameer Khan offers affordable, professional web development services. React, Next.js & Node.js expert. 3+ years experience, 40+ projects.",
-  alternates: { canonical: "https://zameer-v2.vercel.app/freelance-web-developer-ayodhya" },
+  title: "Freelance Web Developer in Ayodhya | Zameer Mahfooz Khan — Hire for Your Project",
+  description: "Hire a freelance web developer in Ayodhya. Zameer Mahfooz Khan offers affordable, professional web development services. React, Next.js & Node.js expert. 3+ years experience, 40+ projects.",
+  alternates: { canonical: "https://zameerkhan.online/freelance-web-developer-ayodhya" },
   keywords: ["freelance web developer ayodhya", "freelance web developer in ayodhya", "hire web developer ayodhya", "freelance developer ayodhya"],
 };
 
@@ -32,7 +32,7 @@ export default function FreelanceWebDeveloperAyodhyaPage() {
         <div className="section-container">
           <span className="section-tag">📍 Ayodhya, India</span>
           <h1><span className="accent-gradient">Freelance Web Developer</span> in Ayodhya</h1>
-          <p>Hire a professional freelance web developer in Ayodhya for your next project. I&apos;m Zameer Khan — with 3+ years of experience and 40+ projects delivered, I build websites that perform, rank, and convert.</p>
+          <p>Hire a professional freelance web developer in Ayodhya for your next project. I&apos;m Zameer Mahfooz Khan — with 3+ years of experience and 40+ projects delivered, I build websites that perform, rank, and convert.</p>
         </div>
       </section>
 

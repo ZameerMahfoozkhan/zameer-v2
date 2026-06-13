@@ -4,9 +4,9 @@ import Breadcrumbs from "@/components/layout/Breadcrumbs";
 import { siteConfig, skills } from "@/data/content";
 
 export const metadata = {
-  title: "About Zameer Khan — Freelance Web Developer in Ayodhya, India",
+  title: "About Zameer Mahfooz Khan — Freelance Web Developer in Ayodhya, India",
   description: "Learn about Zameer Mahfooz Khan, a freelance web developer and website designer based in Ayodhya, India. 3+ years experience building modern websites with React, Next.js & Node.js.",
-  alternates: { canonical: "https://zameer-v2.vercel.app/about" },
+  alternates: { canonical: "https://zameerkhan.online/about" },
 };
 
 export default function AboutPage() {
@@ -14,7 +14,7 @@ export default function AboutPage() {
     <div className="page-enter">
       <Breadcrumbs items={[{ name: "Home", url: "/" }, { name: "About" }]} />
 
-      <section className="section">
+      <section className="section" style={{ paddingTop: '20px' }}>
         <div className="section-container">
           <div className="about-layout">
             <div style={{ display: "flex", flexDirection: "column", gap: "48px", justifyContent: "center", animation: "fadeInDown 0.8s 0.15s both" }}>
@@ -24,7 +24,7 @@ export default function AboutPage() {
                 <div className="avatar-container">
                   <Image
                     src="/avatar.png"
-                    alt="Zameer Khan"
+                    alt="Zameer Mahfooz Khan"
                     width={280}
                     height={280}
                     className="avatar-img"

@@ -4,14 +4,14 @@ import FAQ from "@/components/sections/FAQ";
 import { generateLocalBusinessSchema, generateFAQSchema } from "@/lib/schema";
 
 export const metadata = {
-  title: "Website Designer in Ayodhya | Zameer Khan — Modern & Responsive Designs",
-  description: "Professional website designer in Ayodhya. Zameer Khan creates stunning, mobile-responsive website designs that convert visitors into customers. Modern UI/UX design with SEO optimization.",
-  alternates: { canonical: "https://zameer-v2.vercel.app/website-designer-ayodhya" },
+  title: "Website Designer in Ayodhya | Zameer Mahfooz Khan — Modern & Responsive Designs",
+  description: "Professional website designer in Ayodhya. Zameer Mahfooz Khan creates stunning, mobile-responsive website designs that convert visitors into customers. Modern UI/UX design with SEO optimization.",
+  alternates: { canonical: "https://zameerkhan.online/website-designer-ayodhya" },
   keywords: ["website designer ayodhya", "website designer in ayodhya", "web design ayodhya", "best website designer ayodhya"],
 };
 
 const faqs = [
-  { q: "Who is the best website designer in Ayodhya?", a: "Zameer Khan is a professional website designer in Ayodhya known for creating modern, visually stunning websites. He combines clean aesthetics with SEO optimization and conversion-focused design for businesses of all sizes." },
+  { q: "Who is the best website designer in Ayodhya?", a: "Zameer Mahfooz Khan is a professional website designer in Ayodhya known for creating modern, visually stunning websites. He combines clean aesthetics with SEO optimization and conversion-focused design for businesses of all sizes." },
   { q: "What types of websites can you design?", a: "I design business websites, e-commerce stores, portfolio sites, landing pages, school websites, and custom web applications. Every design is responsive, mobile-friendly, and optimized for search engines." },
   { q: "Do you design mobile-responsive websites?", a: "Yes, every website I design is fully responsive and mobile-first. This means your site will look and function perfectly on smartphones, tablets, and desktops." },
   { q: "Can you redesign my existing website?", a: "Absolutely. I offer website redesign services that modernize your online presence while preserving your SEO value. I can transform outdated designs into modern, high-converting websites." },
@@ -31,7 +31,7 @@ export default function WebsiteDesignerAyodhyaPage() {
         <div className="section-container">
           <span className="section-tag">📍 Ayodhya, India</span>
           <h1>Professional <span className="accent-gradient">Website Designer in Ayodhya</span></h1>
-          <p>Need a stunning website for your Ayodhya business? I&apos;m Zameer Khan — I design beautiful, modern websites that capture attention, build trust, and convert visitors into customers.</p>
+          <p>Need a stunning website for your Ayodhya business? I&apos;m Zameer Mahfooz Khan — I design beautiful, modern websites that capture attention, build trust, and convert visitors into customers.</p>
         </div>
       </section>
 

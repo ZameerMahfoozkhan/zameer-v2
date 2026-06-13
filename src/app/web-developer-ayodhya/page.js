@@ -4,16 +4,16 @@ import FAQ from "@/components/sections/FAQ";
 import { generateLocalBusinessSchema, generateFAQSchema } from "@/lib/schema";
 
 export const metadata = {
-  title: "Web Developer in Ayodhya | Zameer Khan — Custom Websites & Web Apps",
-  description: "Looking for a web developer in Ayodhya? Zameer Khan builds modern, SEO-optimized websites for businesses in Ayodhya, Uttar Pradesh. React, Next.js & Node.js specialist. Get a free quote.",
-  alternates: { canonical: "https://zameer-v2.vercel.app/web-developer-ayodhya" },
+  title: "Web Developer in Ayodhya | Zameer Mahfooz Khan — Custom Websites & Web Apps",
+  description: "Looking for a web developer in Ayodhya? Zameer Mahfooz Khan builds modern, SEO-optimized websites for businesses in Ayodhya, Uttar Pradesh. React, Next.js & Node.js specialist. Get a free quote.",
+  alternates: { canonical: "https://zameerkhan.online/web-developer-ayodhya" },
   keywords: ["web developer ayodhya", "web developer in ayodhya", "website developer ayodhya", "best web developer ayodhya"],
 };
 
 const faqs = [
-  { q: "Who is the best web developer in Ayodhya?", a: "Zameer Khan is a highly skilled freelance web developer based in Ayodhya, specializing in React, Next.js, and modern web technologies. With 3+ years of experience and 40+ projects delivered, he provides professional web development services for businesses of all sizes." },
+  { q: "Who is the best web developer in Ayodhya?", a: "Zameer Mahfooz Khan is a highly skilled freelance web developer based in Ayodhya, specializing in React, Next.js, and modern web technologies. With 3+ years of experience and 40+ projects delivered, he provides professional web development services for businesses of all sizes." },
   { q: "How much does a web developer charge in Ayodhya?", a: "Web development costs in Ayodhya vary based on project complexity. Simple websites start from ₹10,000-15,000, while feature-rich websites and e-commerce platforms range from ₹25,000 to ₹1,00,000+. Contact Zameer for a free quote tailored to your needs." },
-  { q: "Can I get a custom website built in Ayodhya?", a: "Yes! Zameer Khan builds fully custom websites from scratch using modern technologies. Whether you need a business website, e-commerce store, or web application, he delivers tailored solutions for Ayodhya businesses." },
+  { q: "Can I get a custom website built in Ayodhya?", a: "Yes! Zameer Mahfooz Khan builds fully custom websites from scratch using modern technologies. Whether you need a business website, e-commerce store, or web application, he delivers tailored solutions for Ayodhya businesses." },
   { q: "Do you provide SEO services along with web development?", a: "Absolutely. Every website built by Zameer includes on-page SEO optimization. Additional SEO services including keyword research, content strategy, and ongoing optimization are also available." },
   { q: "How long does it take to build a website in Ayodhya?", a: "Typical timelines range from 1-2 weeks for simple websites to 4-8 weeks for complex applications. Zameer provides clear timelines and keeps you updated throughout the development process." },
 ];
@@ -32,7 +32,7 @@ export default function WebDeveloperAyodhyaPage() {
         <div className="section-container">
           <span className="section-tag">📍 Ayodhya, India</span>
           <h1>Professional <span className="accent-gradient">Web Developer in Ayodhya</span></h1>
-          <p>Looking for a skilled web developer in Ayodhya? I&apos;m Zameer Khan — I build modern, fast, and SEO-optimized websites that help Ayodhya businesses grow online. From local shops to established companies, I deliver custom web solutions that drive real results.</p>
+          <p>Looking for a skilled web developer in Ayodhya? I&apos;m Zameer Mahfooz Khan — I build modern, fast, and SEO-optimized websites that help Ayodhya businesses grow online. From local shops to established companies, I deliver custom web solutions that drive real results.</p>
         </div>
       </section>
 

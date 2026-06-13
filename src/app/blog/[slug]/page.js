@@ -351,9 +351,9 @@ export async function generateMetadata({ params }) {
   const post = blogPosts.find((p) => p.slug === slug);
   if (!post) return {};
   return {
-    title: `${post.title} | Zameer Khan`,
+    title: `${post.title} | Zameer Mahfooz Khan`,
     description: post.excerpt,
-    alternates: { canonical: `https://zameer-v2.vercel.app/blog/${post.slug}` },
+    alternates: { canonical: `https://zameerkhan.online/blog/${post.slug}` },
     openGraph: { title: post.title, description: post.excerpt, type: "article" },
     keywords: post.keywords,
   };
@@ -382,7 +382,7 @@ export default async function BlogArticlePage({ params }) {
           <article className="blog-article">
             <h1>{post.title}</h1>
             <div className="blog-article-meta">
-              <span>By Zameer Khan</span>
+              <span>By Zameer Mahfooz Khan</span>
               <span>·</span>
               <span>{post.date}</span>
               <span>·</span>
